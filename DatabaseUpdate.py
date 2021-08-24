@@ -19,3 +19,5 @@ for row in _list:
         cur.execute("use %s;" % row)
         cur.execute(dbexe)
         print(row, "Finish")
+
+input("모든 작업이 완료되었습니다. 프로그램을 종료합니다.")
